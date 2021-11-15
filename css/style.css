@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Bebas Neue";
+    font-weight: 400;
+}
+.site-main{
+    display: flex;
+   
+
+}
+
+.site-main-background {
+    background: url("/images/rasm.jpg");
+    
+    width: 600px;
+    height: 700px;
+}
+.site-main-content{
+    padding:326px 157px 0;
+}
+.site-main-content-text{
+    /* padding:326px 157px 0; */
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 2px;
+    color: #fff;
+    margin: 0;
+}
+.site-main-label{
+    margin-top: 36px;
+    background: #1E90FF;
+    padding: 12px 24px;
+    display: inline-block;
+    cursor: pointer;
+}
+.site-main-label:hover{
+    opacity: 0.8;
+}
+.site-main-label:active{
+    opacity: 0.6;
+}
+
+.site-main-label-text{
+    padding-left: 12px;
+    color: #fff;
+    font-size: 16px; 
+    line-height: 24px;
+    letter-spacing: 2px;
+
+}
+.article-container{
+    max-width: 892px;
+    width: 100%;
+    padding-right: 54px;
+    padding-left: 54px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.article-prograph{
+    padding: 54px;
+    padding-left: 0;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 2px;
+    color: #222;
+    border-bottom: 1px solid #999;
+    margin-bottom: 24px;
+}
+.article-card{
+    display: flex;
+    margin-top: 10px;
+    
+
+}
+.article-card_card{
+    
+    padding-left: 16px;
+    vertical-align: middle;
+}
+
+.article-card-link{
+    text-decoration: none;
+    color: #222;
+    letter-spacing:2px ;
+    font-size: 22px;
+}
+.article-card-link:hover{
+    color: #1E90FF;
+}
+
+.article-card-link:active{
+    opacity: 0.8;
+}
+
+.article-card-elements{
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    color: #666;
+   
+
+}
+.article-card-element-time{
+    display: flex;
+    align-items: center;
+}
+.article-card-element-eyes{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-left: 25px;
+}
+.time{
+     margin: 0;
+     font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    padding-left: 5px;
+    
+}
+.eyes{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    padding-left: 5px;
+}
+.article-link{
+    margin-top: 35px;
+    background: #1E90FF;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 12px 209px;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    border-radius: 4px;
+    color: #fff;
+
+}
+.article-link:hover{
+    opacity: 0.8;
+}
+.article-link:active{
+    opacity: 0.6;
+}
